@@ -9,10 +9,12 @@ var db;
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
+app.use('/static', express.static(__dirname + '/bower_components'));
+app.use('/static/public', express.static(__dirname + '/public'));
 
 MongoClient.connect('mongodb://localhost:27017/rpg/', function (err, database) {
     if (!err) {
-        console.log('Connected to rpg.');
+        console.log('Connected to database rpg.');
         db = database;
     } else {
         throw err;
