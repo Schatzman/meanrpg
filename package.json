@@ -1,0 +1,24 @@
+{
+  "name": "meanrpg",
+  "version": "0.0.1",
+  "description": "MEAN stack text-based RPG for me to learn more about javascript and web development.",
+  "main": "server.js",
+  "dependencies": {
+    "bower": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schatzman/meanrpg.git"
+  },
+  "author": "DSM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schatzman/meanrpg/issues"
+  },
+  "homepage": "https://github.com/Schatzman/meanrpg#readme"
+}

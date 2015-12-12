@@ -1,0 +1,23 @@
+{
+  "name": "meanrpg",
+  "description": "MEAN stack text-based RPG for me to learn more about javascript and web development.",
+  "main": "server.js",
+  "authors": [
+    "DSM"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Schatzman/meanrpg",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "express": "~4.13.3",
+    "angular": "~1.4.8"
+  }
+}
