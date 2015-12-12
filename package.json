@@ -8,8 +8,12 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "poststop": "npm run mongostop",
+    "postinstall": "bower install",
+    "mongostart": "mongod --dbpath db",
+    "mongostop": "mongo admin --eval 'rpg.shutdownServer()'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
