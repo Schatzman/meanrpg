@@ -4,7 +4,9 @@
   "description": "MEAN stack text-based RPG for me to learn more about javascript and web development.",
   "main": "server.js",
   "dependencies": {
-    "bower": "^1.7.1"
+    "bower": "^1.7.1",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
